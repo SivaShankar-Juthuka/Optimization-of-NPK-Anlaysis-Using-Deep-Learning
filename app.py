@@ -227,7 +227,7 @@ def display_result(crop, l):
     
 
 def solve(l):
-    data = pd.read_csv(r"Dataset\Crop_recommendation.csv")
+    data = pd.read_csv(r"Dataset/Crop_recommendation.csv")
     X = data[['N', 'P', 'K', 'temperature', 'humidity', 'ph']]
     y = data['label']
     testing_data = pd.DataFrame([l],  columns = ['N', 'P', 'K', 'temperature', 'humidity', 'ph'])
