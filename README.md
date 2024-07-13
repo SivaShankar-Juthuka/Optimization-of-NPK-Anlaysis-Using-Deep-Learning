@@ -41,7 +41,7 @@ Run the Streamlit application using the following command:
 ```bash
 streamlit run app.py
 ```
-After running the command you are able to see the `localhost:port_number` either you can click on that or else you can open your web browser and navigate to `http://localhost:port_number` to interact with the application.
+After running the command you are able to see the `localhost:port_number` in your terminal either you can click on that or else you can open your web browser and navigate to `http://localhost:port_number` to interact with the application.
 
 ## Contributors
 
